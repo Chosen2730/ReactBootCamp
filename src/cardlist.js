@@ -10,6 +10,7 @@ const CardList = ({robots})=>{
                     email={robots[i].email}
                 />;
     });
+    
     return(
     <div>
         {cardComponents}
